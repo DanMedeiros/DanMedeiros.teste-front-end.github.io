@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style>
+		.img-responsive {
+		    margin: 0 auto;
+		}
+		.img-wrap{
+			padding: 50px 0;
+		}
+		.cor1{
+			background: #b622b5;
+			height: 300px;
+		}
+		.cor2{
+			background: #3350b9;
+			height: 300px;
+		}
+		.cor3{
+			background: #0097f6;
+			height: 300px;
+		}
+
+
+	</style>
+</html>
+<body>
+	<div class="title-wrap text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>TESTE FRONT-END - GRID BOOSTRAP 3</h1>
+					<div class="alert alert-info">
+						<p>Insira abaixo uma estrutura HTML que alcance os resultados abaixo nas suas respectivas resoluções</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="img-wrap text-center">
+		<h2>VISUALIZAÇÃO DESKTOP</h2>
+		<img src="img-desktop.png" alt="Imagem no desktop" class="img-responsive">
+	</div>
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Insira aqui a sua estrutura html que funcione tanto para Desktop quanto para Mobile -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs col-md-4 cor1"></div>
+			<div class="col-xs-6 col-md cor2"></div>
+			<div class="col-xs-6 col-md-2 cor3"></div>
+		</div>
+	</div>
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Insira aqui a sua estrutura html que funcione tanto para Desktop quanto para Mobile -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<br><br><br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xl-12">
+				<p>Logo do site</p>
+			</div>
+			<div class="col-sm-6 col-xl-12">
+				<p>Barra de busca</p>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xl-12">
+				<p>Logo do site</p>
+			</div>
+			<div class="col-sm-6 col-xl-12">
+				<p>Barra de busca</p>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br><br>
+	<div class="container">
+		<div class="col-sm-6 col-xl-12">
+				<p>Logo do site</p>
+			</div>
+			<div class="col-sm-6 col-xl-12">
+				<p>Barra de busca</p>
+			</div>
+			</div>
+		</div>
+
+		B e C funciona mas estão erradas pela documentação do Bootstrap toda coluna deve ficar dentro de uma linha então todos os "cols" devem ficar dentro de "row" e "row" dento de "container".
+
+				<div class="row">
+					<h4>Relatório #1</h4>
+					<div class="col-xl-12">
+						<div class="chart-wrapper">
+							<div class="chart-lines"></div>
+						</div>
+					</div>
+						<h4>Relatório #2</h4>
+					<div class="col-sm-6 col-xl-12">
+						<div class="chart-wrapper">
+							<div id="chart-combination"></div>
+						</div>
+					</div>
+				</div>
+
+	<div class="img-wrap text-center">
+		<h2>VISUALIZAÇÃO MOBILE</h2>
+		<img src="img-mobile.png" alt="Imagem no desktop" class="img-responsive">
+	</div>
+
+</body>
